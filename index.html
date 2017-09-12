@@ -150,7 +150,7 @@
 
                     <p>Orchestrated the transition to cloud-based solutions (Amazon ECS) from a self-hosted approach, and successfully released our latest title on Steam with the new backend. We implement most of the server-side business logic in NodeJS and we use MongoDB as a database.</p>
                     
-                    <p>Volunteered to carry out an extensive reform on the ways the company ships software. Migrated the entire codebase (Mainly C++) to Git, set up automatic multi-platform builds and tests and introduced proper issue tracking. With these we managed to significantly reduce bug rates and were able to set up an iterative release cycle.</p>
+                    <p>Volunteered to carry out an extensive reform on the ways the company ships software. Migrated the entire codebase (Mainly C++) to Git, set up automatic multi-platform builds and tests, introduced proper issue tracking. With these we managed to significantly reduce bug rates and were able to set up an iterative release cycle.</p>
 
                     <hr>
 
@@ -171,7 +171,7 @@
                     
                     <p>Worked as a contractor for Flynt, a startup bank in Switzerland, exclusively for super-rich individuals. We used the Scala/Akka stack along with Cassandra and MySQL for building a banking engine from scratch. Projects as follows.</p>
                     <p><b>Authentication System</b> (full responsibility). Designed, developed and delivered software implementing the 3-way authentication process of Flynt (Scala web application).</p>
-                    <p><b>PKI Services</b>. Developed client certificate and private key management system as EJBCA plugins (written in Java).
+                    <p><b>PKI Services</b>. Developed client certificate and key management system as EJBCA plugins (written in Java).
                     <p><b>Deployment System</b>. Due to lack of workforce, joined the Operations team. Wrote management scripts and numerous Ansible roles to automate the deployment of our software stack via VMWare vSphere.<p>
                     
                     <hr>
@@ -191,12 +191,12 @@
                         </div>
                     </div>
                     
-                    <p>Worked in the Platform Services team of a subdivision called Demonware. Developed a shared service platform (Erlang and Python) and the related software backends for AAA online gaming (470 million users, 300K requests/s). Some notable projects as follows.</p>
+                    <p>Worked in the Platform Services team of a subdivision called Demonware. Developed a shared service platform (Erlang and Python) along with the related software backends for AAA online gaming (470 million users, 300K requests/s). Some notable projects as follows.</p>
 
-                    <p><b>Service Discovery for MySQL</b> (full responsibility). Designed a way of mapping the MySQL replica sets to human readable identifiers. Developed a background service that automatically configures HAProxy to route services to the appropriate machines holding the corresponding data. The mappings were stored in Zookeeper and could be updated in real-time with zero downtime in an admin console.</p>
-                    <p><b>Backpressure</b> (full responsibility). The project was to employ a control mechanism between the load balancer and the internal service endpoints to slow down request rates and perform retries if needed, so that our users experience better overall service quality.</p>
-                    <p><b>Matchmaking</b>. Worked on a service that matches players together based on their skills in real-time. Developed the timeout system along with monitoring. Made research on optimization algorithms for solving the problem (clustering, fuzzy-search, space partitioning).</p>
-                    <p><b>Erlang Bytecode Encryption</b> (full responsibility). Had to add an encryption/obfuscation mechanism to the Erlang compiler and modify the VM to be able to execute the encrypted bytecode.</p>
+                    <p><b>Service Discovery for MySQL</b> (full responsibility). Designed a way of mapping MySQL replica sets to human readable identifiers. Developed a background service that automatically configures HAProxy to route services to the appropriate machines holding the corresponding data. The mappings were stored in Zookeeper and could be updated in real-time with zero downtime using an admin console.</p>
+                    <p><b>Backpressure</b> (full responsibility). The project was to employ a control mechanism between the load balancer and the internal service endpoints to slow down request rates and perform seamless retries if needed, so that our users experience better overall service quality.</p>
+                    <p><b>Matchmaking</b>. Worked on a service that matches players together in real-time, based on their stats. Developed the timeout system and the service monitoring. Made research on optimization algorithms for solving the problem (clustering, fuzzy-search, space partitioning).</p>
+                    <p><b>Erlang Bytecode Encryption</b> (full responsibility). Developed an encryption/obfuscation mechanism in the Erlang compiler and modified the VM to be able to execute the encrypted bytecode.</p>
 
                     <hr>
 
@@ -218,7 +218,7 @@
                     <p>Developed a cloud storage solution similar to Amazon S3. The software had two main layers, a fronted that manages user data and exposes a user-facing REST API (ASP.NET, C#, Cassandra), and a backend that allows CRUD operations on data blocks distributed on a cluster of machines (C++, C#). Developed the backend layer with a team of 4 engineers. The key idea behind the storage system was to achieve redundancy through the RAID-6 algorithm instead of replication like most other solutions do. Some responsibilities as follows.</p>
 
                     <p><b>PoC-ing and research</b>. Researching libraries, file systems and algorithms to use. Creating PoC software, performing benchmarks, summarizing and comparing them, documenting results.</p>
-                    <p><b>Design and Development</b>. Designed the CRUD API for the backend system using a subset of HTTP. Wrote several internal software components in C# and C++ with a focus on doing proper async-io and maximizing disk performance.
+                    <p><b>Design and Development</b>. Designed the CRUD API for the data block storage using a subset of HTTP. Wrote several internal software components in C# and C++ with a focus on doing proper async IO and maximizing disk performance.
                     <p><b>Mentorship</b>. I had the opportunity to mentor some of my colleagues coming from a C++ background in the C# and .NET world.
                     
                     <hr>
@@ -231,14 +231,16 @@
                         <div class="col-md-8">
                             <img src="img/shopline-logo.png" class="logo" alt="">
                             <h4><b>Software Engineer</b></h4>
-                            <p class="sub"><a href="https://bookline.hu/"><b>Libri-Bookline</b></a></p>
+                            <p class="sub"><a href="https://bookline.hu/"><b>Libri-Bookline</b>, Budapest</a></p>
                         </div>
                         <div class="year col-md-4">
                             <p>May 2012 - Aug 2013</p>
                         </div>
                     </div>
                     
-                    <p>Started to work for Bookline as an undergraduate. Worked with a team of developers on the in-house ERP system of the company, a C++ desktop application with a central MSSQL backend. The main task was to do a transition of components to open source alternatives. Ported the formerly Windows-only desktop application to Linux. Migrated the MSSQL database and stored procedures to Postgres. Factored out much of the business logic to several smaller Python scripts.</p>
+                    <p>Started to work for Bookline as an undergraduate. Worked with a team of developers on the in-house ERP system of the company, a C++ desktop application with a central MSSQL backend.</p>
+
+                    <p>The main task was to do a transition of components to open source alternatives. Ported the formerly Windows-only desktop application to Linux. Migrated the MSSQL database and stored procedures to Postgres. Factored out much of the business logic to several smaller Python scripts.</p>
 
                     <!-- Job End -->
                    
